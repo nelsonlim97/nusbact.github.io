@@ -74,22 +74,30 @@
     		height: auto;
 		}
 
-		.contact-info {
-            		margin-left: 29.4em;
+		/* .contact-info {
+            margin-left: 29.4em;
   			margin-right: 29.4em;
 			width: 100%;
     		height: auto;
+		} */
+
+		.hero-area {
+			width: 100%;
 		}
-		
+
 		.section-bg{
 			height: auto;
 		}
-		
-		.hero-area {
-			width: 100%;
-			resize: both
+
+		.center {
+  			text-align: center;
 		}
-		
+
+		/* .fadeInUp {
+			-webkit-columns: 100px 3;
+  			-moz-columns: 100px 3;
+  			columns: 100px 3;
+		} */
 	</style>
 </head>
 
@@ -266,7 +274,7 @@ Start Our Team
 				<!-- /section title -->
 
 				<!-- team member -->
-				<div class="col-md-3 wow fadeInDown" data-wow-duration="500ms">
+				<div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="500ms">
 					<div class="team-member">
 						<div class="member-photo">
 							<!-- member photo -->
@@ -299,7 +307,7 @@ Start Our Team
 				<!-- end team member -->
 
 				<!-- team member -->
-				<div class="col-md-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
 					<div class="team-member">
 						<div class="member-photo">
 							<!-- member photo -->
@@ -330,7 +338,7 @@ Start Our Team
 				<!-- end team member -->
 
 				<!-- team member -->
-				<div class="col-md-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
 					<div class="team-member">
 						<div class="member-photo">
 							<!-- member photo -->
@@ -362,7 +370,7 @@ Start Our Team
 				<!-- end team member -->
 
 				<!-- team member -->
-				<div class="col-md-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
 					<div class="team-member">
 						<div class="member-photo">
 							<!-- member photo -->
@@ -398,7 +406,7 @@ Start Our Team
 		<div class="container">
 			<div class="row">
 				<!-- team member -->
-				<div class="col-md-3 wow fadeInDown" data-wow-duration="500ms">
+				<div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
 					<div class="team-member">
 						<div class="member-photo">
 							<!-- member photo -->
@@ -429,7 +437,7 @@ Start Our Team
 				<!-- end team member -->
 
 				<!-- team member -->
-				<div class="col-md-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
 					<div class="team-member">
 						<div class="member-photo">
 							<!-- member photo -->
@@ -584,7 +592,7 @@ Start Blog Section
 						<div class="caption">
 							<a data-effect="mfp-with-zoom" href="images/tutorial/tutorial_main/python.jpg" data-lightbox="image-1">
 							</a>
-							<h4><a href="python_main.html">Python Tutorial Series</a></h4>
+							<h4><a href="tutorials/python_main.html">Python Tutorial Series</a></h4>
 							<p>Ever wanted to learn Python but not sure where to start? Now is your chance!</p>
 						</div>
 					</div>
@@ -656,46 +664,44 @@ Start Blog Section
 </section>   <!-- End section -->
 
 		<!-- Start Contact Us
-=========================================== -->
-		<section id="contact-us" class="contact-us section-bg">
-			<div class="container">
-				<div class="row">
-
-					<!-- section title -->
-					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-						<h2>Get In <span class="color">Touch</span></h2> 
-						
-						<div class="border"></div><br>
-						<h4>
-							If you are interested in analytics and want to collaborate with BACT, please contact us! We are open to any opportunities.
-						</h4>
+=========================================== -->		
+<section id="contact-us" class="contact-us section-bg">
+	<div class="container">
+		<div class="row">
+			
+			<!-- section title -->
+			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+				<h2>Get In <span class="color">Touch</span></h2>
+				<div class="border"></div>
+			</div>
+			<!-- /section title -->
+			
+			<!-- Contact Details -->
+			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+				<h3>Contact Details</h3>
+				<p>If you are interested in analytics and want to collaborate with BACT, please contact us! We are open to any opportunities. </p>
+				<div class="contact-details">
+					<div class="con-info clearfix">
+						<i class="tf-map-pin"></i>
+						<span>Mochtar Riady Building #8-02, NUS Business School
+							<br> 5 Kent Ridge Dr, Singapore 119245</span>
 					</div>
-					<!-- /section title -->
-
-					<!-- Contact Details -->
-					<div class="contact-info col-lg-12 wow fadeInUp" data-wow-duration="500ms">
-							<div class="contact-details">
-								<div class="con-info clearfix">
-									<i class="tf-map-pin"></i>
-									<span>Mochtar Riady Building #8-02, NUS Business School
-										<br> 5 Kent Ridge Dr, Singapore 119245</span>
-					</div>
-
+					
 					<div class="con-info clearfix">
 						<i class="tf-ion-social-facebook"></i>
 						<span> Facebook: https://www.facebook.com/nusbact/ </span>
 					</div>
-
+					
 					<div class="con-info clearfix">
 						<i class="tf-ion-social-linkedin"></i>
-						<span > LinkedIn: https://www.linkedin.com/company/nusbact/ </span>
+						<span>LinkedIn: https://www.linkedin.com/company/nusbact/ </span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="fab fa-telegram"></i>
 						<span>Telegram: https://t.me/nusbasblog </span>
 					</div>
-
+					
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
 						<span>Email: nusbas.da@gmail.com</span>
@@ -703,24 +709,51 @@ Start Blog Section
 				</div>
 			</div>
 			<!-- / End Contact Details -->
-
-
-
-			</div> <!-- end row -->
-			</div> <!-- end container -->
-		</section> <!-- end section -->
-
-
-
-
-
-		<!-- end Contact Area
-========================================== -->
+				
+			<!-- Contact Form -->
+			<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+				<form id="contact-form" method="post" action="sendmail.php" role="form">
+				
+					<div class="form-group">
+						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+					</div>
+					
+					<div class="form-group">
+						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+					</div>
+					
+					<div class="form-group">
+						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+					</div>
+					
+					<div class="form-group">
+						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+					</div>
+					
+					<div id="mail-success" class="success">
+						Thank you. The Mailman is on His Way :)
+					</div>
+					
+					<div id="mail-fail" class="error">
+						Sorry, don't know what happened. Try later :(
+					</div>
+					
+					<div id="cf-submit">
+						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+					</div>						
+					
+				</form>
+			</div>
+			<!-- ./End Contact Form -->
+		
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section> <!-- end section -->
 
 		<footer id="footer" class="bg-one">
 			<div class="container">
 				<div class="row wow fadeInUp" data-wow-duration="500ms">
-					<div class="col-xs-12">
+					<div class="col-lg-12">
 
 						<!-- Footer Social Links -->
 						<div class="social-icon">
@@ -732,7 +765,7 @@ Start Blog Section
 						</div>
 						<!--/. End Footer Social Links -->
 
-					</div> <!-- end col xs 12 -->
+					</div> <!-- end col lg 12 -->
 				</div> <!-- end row -->
 			</div> <!-- end container -->
 		</footer> <!-- end footer -->
